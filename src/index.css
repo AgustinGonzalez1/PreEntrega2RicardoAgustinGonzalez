@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Bakbak One", cursive;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+
+:root {
+	--main: #212a3e;
+	--light: #efefef;
+}
+body {
+	background-image: url(../public/marcas.jpg);
+	background-repeat: repeat;
+	color: #00000080;
+}
+
+/* footer */
+
+.redSocial,
+.redSocial:hover,
+.redSocial:active {
+	text-decoration: none;
+	color: inherit;
+}
+.redSocial {
+	transition: background 0.3s, color 0.3s;
+}
+.redSocial i {
+	transition: transform 0.3s;
+}
+.redSocial {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px 20px;
+	@media (max-width: 360px) {
+		margin: 5px 10px;
+	}
+}
+.red-in {
+	background-color: #0e76a8;
+}
+.red-gh {
+	background-color: #35465c;
+}
+.red-ig {
+	background-color: #bc1888;
+}
+
+.red-in:hover {
+	color: #0e76a8;
+}
+.red-gh:hover {
+	color: #35465c;
+}
+.red-ig:hover {
+	color: #bc1888;
+}
+
+.redSocial:hover i {
+	transform: rotate(360deg);
+}
+
+.redSocial {
+	font-size: 22px;
+	width: 48px;
+	height: 48px;
+	border-radius: 8px;
+}
+.redSocial:hover {
+	background-color: var(--main);
+}
+/* footer */
+
+.move {
+	position: relative; /* es necesario para usar "left" */
+	animation: mover 7s linear infinite; /* "linear" hace que la animación sea uniforme */
+}
+
+@keyframes mover {
+	0% {
+		right: -800px;
+	}
+	100% {
+		right: 800px;
+	}
+}
