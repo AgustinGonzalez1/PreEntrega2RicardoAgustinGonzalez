@@ -12,7 +12,7 @@ const Lista = ({ link, text }) => {
 };
 const Nav = () => {
 	return (
-		<nav className="flex justify-between h-[80px] bg-[var(--main)]">
+		<nav className="flex justify-between h-[80px] bg-[var(--main)] fixed w-full top-0">
 			<Icon />
 			<ul className="flex items-center">
 				<Lista link={"#"} text={"Section1"} />

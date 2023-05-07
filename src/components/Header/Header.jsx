@@ -6,7 +6,7 @@ import Img5 from "./header5.webp";
 
 const Header = () => {
 	return (
-		<header className="w-full md:max-w-[1200px] mx-auto flex flex-col bg-[var(--light)]">
+		<header className="w-full md:max-w-[1200px] mx-auto flex flex-col bg-[var(--light)] mt-[80px]">
 			<div className="w-full flex justify-evenly">
 				<div className="w-[30%]">
 					<img className="object-cover" src={Img2} alt="" />
