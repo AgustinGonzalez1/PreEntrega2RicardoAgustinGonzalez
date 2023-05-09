@@ -1,12 +1,10 @@
 import CartWidget from "./CartWidget";
 import Icon from "./IconIndex";
 
-const Lista = ({ link, text }) => {
+const Lista = ({ text }) => {
 	return (
 		<li className="mx-[10px]">
-			<a href={link} className=" text-white hover:text-[#000] duration-200">
-				{text}
-			</a>
+			<button className=" text-white hover:text-[#000] duration-200">{text}</button>
 		</li>
 	);
 };
@@ -15,10 +13,10 @@ const Nav = () => {
 		<nav className="flex justify-between h-[80px] bg-[var(--main)] fixed w-full top-0">
 			<Icon />
 			<ul className="flex items-center">
-				<Lista link={"#"} text={"Section1"} />
-				<Lista link={"#"} text={"Section2"} />
-				<Lista link={"#"} text={"Section3"} />
-				<Lista link={"#"} text={"Section4"} />
+				<Lista text={"Section1"} />
+				<Lista text={"Section2"} />
+				<Lista text={"Section3"} />
+				<Lista text={"Section4"} />
 			</ul>
 			<CartWidget />
 		</nav>
