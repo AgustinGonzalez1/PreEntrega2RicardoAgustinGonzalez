@@ -1,6 +1,6 @@
 const CartWidget = () => {
 	return (
-		<div className="flex justify-end items-center text-white relative mr-[20px] w-[150px]">
+		<div className="flex justify-end items-center text-white relative md:w-[150px]">
 			<button>
 				<i className="fa-solid fa-cart-shopping text-[25px]"></i>
 			</button>

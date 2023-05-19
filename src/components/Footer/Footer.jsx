@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-		<footer className="bg-[var(--main)] flex flex-col gap-3 py-3 items-center">
+		<footer className="bg-oscuro flex flex-col gap-3 py-3 items-center">
 			<p className="text-white text-sm">Copyright © 2023 - Desarrollado por Agustin Gonzalez</p>
 			<div className="flex content-center flex-wrap">
 				<a className="redSocial red-in" href="https://www.linkedin.com/in/ricardoagustingonzalez/" target="_blank">

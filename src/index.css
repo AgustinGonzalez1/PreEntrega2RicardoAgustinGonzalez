@@ -12,14 +12,10 @@ a {
 	text-decoration: none;
 }
 
-:root {
-	--main: #212a3e;
-	--light: #efefef;
-}
-body {
-	background-image: url(/marcas.jpg);
+header {
+	background-image: url(./components/Header/images/marcas.png);
 	background-repeat: repeat;
-	color: #00000080;
+	background-color: #e0e1dd;
 }
 
 /* footer */
@@ -74,22 +70,32 @@ body {
 	width: 48px;
 	height: 48px;
 	border-radius: 8px;
+	color: #0d1b2a;
 }
 .redSocial:hover {
-	background-color: var(--main);
+	background-color: #0d1b2a;
 }
 /* footer */
 
-.move {
-	position: relative; /* es necesario para usar "left" */
-	animation: mover 7s linear infinite; /* "linear" hace que la animación sea uniforme */
+/* boton */
+.linea1,
+.linea2,
+.linea3 {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all 0.3s;
 }
 
-@keyframes mover {
-	0% {
-		right: -800px;
-	}
-	100% {
-		right: 800px;
-	}
+.linea11 {
+	transform: translateY(10px) rotate(225deg);
 }
+.linea22 {
+	opacity: 0;
+}
+.linea33 {
+	transform: translateY(-10px) rotate(-225deg);
+}
+/* boton */
