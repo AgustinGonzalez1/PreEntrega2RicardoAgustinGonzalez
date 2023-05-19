@@ -31,6 +31,11 @@ const ItemCount = ({ stock, initial }) => {
 	};
 
 	useEffect(() => {
+		setStock(stock);
+		setNumber(initial);
+	}, [stock]);
+
+	useEffect(() => {
 		if (newStock === 0) {
 			setNumber(0);
 		}
