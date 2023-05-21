@@ -7,7 +7,7 @@ import { useState } from "react";
 const Lista = ({ text }) => {
 	return (
 		<li className="mx-[10px]">
-			<button className=" text-white hover:text-[#000] duration-200">{text}</button>
+			<button className=" text-white hover:text-[#000] duration-200 font-bold">{text}</button>
 		</li>
 	);
 };
@@ -30,11 +30,11 @@ const Nav = () => {
 	};
 
 	return (
-		<nav className={`flex justify-between h-[80px] bg-oscuro fixed w-full top-0 px-5 z-20`}>
+		<nav className={`flex justify-between h-[80px] bg-[#7753E6] fixed w-full top-0 px-5 z-20`}>
 			<Hamburger agregarClases={agregarClases} clase1={clases.clase1} clase2={clases.clase2} clase3={clases.clase3} />
 			<Icon />
 			<ul
-				className={`h-0 ease-in-out duration-300 flex items-center absolute md:static w-full md:w-auto justify-center flex-col md:flex-row bg-oscuro  overflow-hidden top-[80px] left-[0px] gap-5 md:gap-0 md:h-auto ${clases.clase} rounded-b-lg`}>
+				className={`h-0 ease-in-out duration-300 flex items-center absolute md:static w-full md:w-auto justify-center flex-col md:flex-row overflow-hidden top-[80px] left-[0px] gap-5 md:gap-0 md:h-auto ${clases.clase} rounded-b-lg`}>
 				<Lista text={"Section1"} />
 				<Lista text={"Section2"} />
 				<Lista text={"Section3"} />

@@ -1,10 +1,14 @@
 import ItemCount from "./components/ItemCount";
+import ItemListContainer from "./components/ItemListContainer";
 
 const Main = () => {
 	return (
-		<main className="w-full md:max-w-[1200px] mx-auto flex flex-col bg-clarito">
-			<section className="mb-5 mt-2 border-t-2 border-black">
-				<ItemCount stock={4} initial={1} />
+		<main className="w-full flex flex-col justify-center bg-[#191825]">
+			<section className="flex flex-col container mx-auto">
+				<h2 className="text-center text-2xl text-white my-4">Productos</h2>
+				<ItemListContainer />
+
+				<ItemCount stock={7} initial={1} />
 			</section>
 		</main>
 	);

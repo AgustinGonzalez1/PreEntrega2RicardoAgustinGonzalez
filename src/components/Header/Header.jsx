@@ -7,26 +7,28 @@ import Img5 from "./images/header5.webp";
 const Header = () => {
 	return (
 		<header className="w-full flex flex-col justify-center mt-[80px]">
-			<section className=" flex flex-col container mx-auto bg-[#e0e1dd]">
+			<section className="flex flex-col container mx-auto bg-transparent">
 				<div className="w-full flex justify-evenly">
-					<div className="w-[30%]">
+					<div className="w-[20%]">
 						<img className="object-cover" src={Img2} alt="" />
 					</div>
-					<div className="w-[30%]">
+					<div className="w-[20%]">
 						<img className="object-cover" src={Img3} alt="" />
 					</div>
-					<div className="w-[30%]">
+					<div className="w-[20%]">
 						<img className="object-cover" src={Img4} alt="" />
 					</div>
 				</div>
 				<div className="flex justify-center overflow-hidden">
-					<h1 className="text-[7vw] md:text-[50px] my-2 text-[var(--main)] animate-mover1 md:animate-mover relative">SPORTIFY</h1>
+					<h1 className="text-[7vw] md:text-[50px] my-2 text-black animate-mover1 md:animate-mover relative font-bold">
+						SPORTIFY
+					</h1>
 				</div>
-				<div className="flex justify-between">
-					<div className="w-[45%]">
+				<div className="flex justify-evenly">
+					<div className="w-[40%]">
 						<img className="object-cover" src={Img1} alt="" />
 					</div>
-					<div className="w-[45%]">
+					<div className="w-[40%]">
 						<img className="object-cover" src={Img5} alt="" />
 					</div>
 				</div>

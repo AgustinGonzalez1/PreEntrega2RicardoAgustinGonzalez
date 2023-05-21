@@ -6,10 +6,10 @@ export default {
 			keyframes: {
 				mover: {
 					"0%": {
-						right: "-800px",
+						right: "-900px",
 					},
 					"100%": {
-						right: "800px",
+						right: "900px",
 					},
 				},
 				mover1: {
