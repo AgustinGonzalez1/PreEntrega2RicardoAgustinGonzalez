@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-		<footer className="bg-oscuro flex flex-col gap-3 py-3 items-center">
+		<footer className="flex flex-col gap-3 py-3 items-center bg-[#7753E6]">
 			<p className="text-white text-sm">Copyright © 2023 - Desarrollado por Agustin Gonzalez</p>
 			<div className="flex content-center flex-wrap">
 				<a className="redSocial red-in" href="https://www.linkedin.com/in/ricardoagustingonzalez/" target="_blank">
