@@ -1,57 +1,57 @@
 [
 	{
 		"id": 1,
-		"title": "Producto 1",
-		"image": "imagen1.jpg",
+		"title": "Remera gris nike",
+		"image": "./src/components/Main/components/images/r1.png",
 		"price": 10.99,
 		"section": "men"
 	},
 	{
 		"id": 2,
-		"title": "Producto 2",
-		"image": "imagen2.jpg",
+		"title": "Remera puma",
+		"image": "./src/components/Main/components/images/r2.png",
 		"price": 15.99,
 		"section": "men"
 	},
 	{
 		"id": 3,
-		"title": "Producto 3",
-		"image": "imagen3.jpg",
+		"title": "Remera puma",
+		"image": "./src/components/Main/components/images/r3.png",
 		"price": 12.99,
 		"section": "men"
 	},
 	{
 		"id": 4,
 		"title": "Producto 4",
-		"image": "imagen4.jpg",
+		"image": "./src/components/Main/components/images/r4.png",
 		"price": 8.99,
 		"section": "men"
 	},
 	{
 		"id": 5,
 		"title": "Producto 5",
-		"image": "imagen5.jpg",
+		"image": "./R.png",
 		"price": 9.99,
 		"section": "men"
 	},
 	{
 		"id": 6,
 		"title": "Producto 6",
-		"image": "imagen6.jpg",
+		"image": "./R.png",
 		"price": 19.99,
 		"section": "men"
 	},
 	{
 		"id": 7,
 		"title": "Producto 7",
-		"image": "imagen7.jpg",
+		"image": "./R.png",
 		"price": 14.99,
 		"section": "men"
 	},
 	{
 		"id": 8,
 		"title": "Producto 8",
-		"image": "imagen8.jpg",
+		"image": "./R.png",
 		"price": 11.99,
 		"section": "men"
 	},
