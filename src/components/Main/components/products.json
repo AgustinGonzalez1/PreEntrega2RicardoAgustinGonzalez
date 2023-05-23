@@ -1,50 +1,50 @@
 [
 	{
 		"id": 1,
-		"title": "Remera gris nike",
-		"image": "/imagesMain/r1.png",
+		"title": "Remera PUMA lisa",
+		"image": "/imagesMain/men/t-shirts/r1.png",
 		"price": 10.99,
 		"section": "men"
 	},
 	{
 		"id": 2,
-		"title": "Remera puma",
-		"image": "/imagesMain/r2.png",
+		"title": "Remera PUMA tricolor",
+		"image": "/imagesMain/men/t-shirts/r2.png",
 		"price": 15.99,
 		"section": "men"
 	},
 	{
 		"id": 3,
-		"title": "Remera puma",
-		"image": "/imagesMain/r3.png",
+		"title": "Remera H",
+		"image": "/imagesMain/men/t-shirts/r3.png",
 		"price": 12.99,
 		"section": "men"
 	},
 	{
 		"id": 4,
-		"title": "Producto 4",
-		"image": "/imagesMain/r4.png",
+		"title": "Remera NIKE zebra",
+		"image": "/imagesMain/men/t-shirts/r4.png",
 		"price": 8.99,
 		"section": "men"
 	},
 	{
 		"id": 5,
 		"title": "Producto 5",
-		"image": "/imagesMain/r5.png",
+		"image": "/imagesMain/men/t-shirts/r5.png",
 		"price": 9.99,
 		"section": "men"
 	},
 	{
 		"id": 6,
 		"title": "Producto 6",
-		"image": "/imagesMain/r6.png",
+		"image": "/imagesMain/men/t-shirts/r6.png",
 		"price": 19.99,
 		"section": "men"
 	},
 	{
 		"id": 7,
-		"title": "Producto 7",
-		"image": "./R.png",
+		"title": "Nike England Jersey",
+		"image": "/imagesMain/men/t-shirts/r7.png",
 		"price": 14.99,
 		"section": "men"
 	},

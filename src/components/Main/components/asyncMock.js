@@ -1,14 +1,12 @@
-import arrProducts from "./productos.json";
+import dataBase from "./products.json";
 
-const fetchData = async (setProducts) => {
-	const promesa = new Promise((resolve) => {
-		setTimeout(() => {
-			resolve(arrProducts);
-		}, 3000);
-	});
-
-	const response = await promesa;
-	setProducts(response);
+const fetchData = async (setData) => {
+	try {
+		await new Promise((resolve) => setTimeout(resolve, 3000));
+		setData(dataBase);
+	} catch (error) {
+		console.error("Error al obtener los datos:", error);
+	}
 };
 
 export default fetchData;

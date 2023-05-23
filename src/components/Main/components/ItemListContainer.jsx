@@ -1,15 +1,5 @@
 import React, { useState, useEffect } from "react";
-import dataBase from "./productos.json";
-
-const fetchData = async (setData) => {
-	try {
-		// Simular una espera de 3 segundos antes de obtener los datos
-		await new Promise((resolve) => setTimeout(resolve, 3000));
-		setData(dataBase);
-	} catch (error) {
-		console.error("Error al obtener los datos:", error);
-	}
-};
+import fetchData from "./asyncMock";
 
 const Item = ({ item }) => {
 	return (
