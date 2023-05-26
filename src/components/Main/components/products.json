@@ -1,423 +1,543 @@
 [
 	{
 		"id": 1,
-		"title": "Remera PUMA lisa",
+		"type": "Camiseta",
+		"title": "Squadra 21",
 		"image": "/imagesMain/men/t-shirts/r1.png",
-		"price": 10.99,
-		"section": "men"
+		"price": 14.999,
+		"section": "men",
+		"brand": "Adidas"
 	},
 	{
 		"id": 2,
-		"title": "Remera PUMA tricolor",
+		"type": "Camiseta",
+		"title": "Prepartido Juventus",
 		"image": "/imagesMain/men/t-shirts/r2.png",
-		"price": 15.99,
-		"section": "men"
+		"price": 22.999,
+		"section": "men",
+		"brand": "Adidas"
 	},
 	{
 		"id": 3,
-		"title": "Remera H",
+		"type": "Remera",
+		"title": "Team Base",
 		"image": "/imagesMain/men/t-shirts/r3.png",
-		"price": 12.99,
-		"section": "men"
+		"price": 14.999,
+		"section": "men",
+		"brand": "Adidas"
 	},
 	{
 		"id": 4,
-		"title": "Remera NIKE zebra",
+		"type": "Camiseta",
+		"title": "Academy 23 training",
 		"image": "/imagesMain/men/t-shirts/r4.png",
-		"price": 8.99,
-		"section": "men"
+		"price": 14.999,
+		"section": "men",
+		"brand": "Nike"
 	},
 	{
 		"id": 5,
-		"title": "Producto 5",
+		"type": "Remera",
+		"title": "Izologist",
 		"image": "/imagesMain/men/t-shirts/r5.png",
-		"price": 9.99,
-		"section": "men"
+		"price": 6.999,
+		"section": "men",
+		"brand": "Lotto"
 	},
 	{
 		"id": 6,
-		"title": "Producto 6",
+		"type": "Remera",
+		"title": "Msp Termica",
 		"image": "/imagesMain/men/t-shirts/r6.png",
-		"price": 19.99,
-		"section": "men"
+		"price": 11.999,
+		"section": "men",
+		"brand": "Lotto"
 	},
 	{
 		"id": 7,
-		"title": "Nike England Jersey",
+		"type": "Camiseta",
+		"title": "Rush Emboss",
 		"image": "/imagesMain/men/t-shirts/r7.png",
-		"price": 14.99,
-		"section": "men"
+		"price": 19.499,
+		"section": "men",
+		"brand": "Under Armour"
 	},
 	{
 		"id": 8,
-		"title": "Producto 8",
-		"image": "./R.png",
-		"price": 11.99,
-		"section": "men"
+		"type": "Pantalon",
+		"title": "Tiro21",
+		"image": "/imagesMain/men/pants/p1.png",
+		"price": 15.999,
+		"section": "men",
+		"brand": "Adidas"
 	},
 	{
 		"id": 9,
-		"title": "Producto 9",
-		"image": "imagen9.jpg",
-		"price": 7.99,
-		"section": "men"
+		"type": "Pantalon",
+		"title": "Urbano",
+		"image": "/imagesMain/men/pants/p2.png",
+		"price": 13.999,
+		"section": "men",
+		"brand": "Lotto"
 	},
 	{
 		"id": 10,
-		"title": "Producto 10",
-		"image": "imagen10.jpg",
-		"price": 13.99,
-		"section": "men"
+		"type": "Pantalon",
+		"title": "Essentials 3 Stripes",
+		"image": "/imagesMain/men/pants/p3.png",
+		"price": 14.799,
+		"section": "men",
+		"brand": "Adidas"
 	},
 	{
 		"id": 11,
-		"title": "Producto 11",
-		"image": "imagen11.jpg",
-		"price": 16.99,
-		"section": "men"
+		"type": "Pantalon",
+		"title": "Essentials Slim",
+		"image": "/imagesMain/men/pants/p4.png",
+		"price": 14.999,
+		"section": "men",
+		"brand": "Puma"
 	},
 	{
 		"id": 12,
-		"title": "Producto 12",
-		"image": "imagen12.jpg",
-		"price": 20.99,
-		"section": "men"
+		"type": "Pantalon",
+		"title": "Colombia Tiro 23",
+		"image": "/imagesMain/men/pants/p5.png",
+		"price": 25.999,
+		"section": "men",
+		"brand": "Adidas"
 	},
 	{
 		"id": 13,
-		"title": "Producto 13",
-		"image": "imagen13.jpg",
-		"price": 18.99,
-		"section": "men"
+		"type": "Pantalon",
+		"title": "Urbano Hs May",
+		"image": "/imagesMain/men/pants/p6.png",
+		"price": 13.999,
+		"section": "men",
+		"brand": "Lotto"
 	},
 	{
 		"id": 14,
-		"title": "Producto 14",
-		"image": "imagen14.jpg",
-		"price": 22.99,
-		"section": "men"
+		"type": "Pantalon",
+		"title": "Urbano Hs May",
+		"image": "/imagesMain/men/pants/p7.png",
+		"price": 13.999,
+		"section": "men",
+		"brand": "Lotto"
 	},
 	{
 		"id": 15,
-		"title": "Producto 15",
-		"image": "imagen15.jpg",
-		"price": 17.99,
-		"section": "men"
+		"type": "Zapatillas",
+		"title": "Coreracer",
+		"image": "/imagesMain/men/sneakers/z1.png",
+		"price": 25.999,
+		"section": "men",
+		"brand": "Adidas"
 	},
 	{
 		"id": 16,
-		"title": "Producto 16",
-		"image": "imagen16.jpg",
-		"price": 21.99,
-		"section": "men"
+		"type": "Zapatillas",
+		"title": "Downshifter 11",
+		"image": "/imagesMain/men/sneakers/z2.png",
+		"price": 32.999,
+		"section": "men",
+		"brand": "Nike"
 	},
 	{
 		"id": 17,
-		"title": "Producto 17",
-		"image": "imagen17.jpg",
-		"price": 19.99,
-		"section": "men"
+		"type": "Zapatillas",
+		"title": "Air Max Sc",
+		"image": "/imagesMain/men/sneakers/z3.png",
+		"price": 39.999,
+		"section": "men",
+		"brand": "Nike"
 	},
 	{
 		"id": 18,
-		"title": "Producto 18",
-		"image": "imagen18.jpg",
-		"price": 14.99,
-		"section": "men"
+		"type": "Zapatillas",
+		"title": "Rev 6 Next Nature",
+		"image": "/imagesMain/men/sneakers/z4.png",
+		"price": 29.999,
+		"section": "men",
+		"brand": "Nike"
 	},
 	{
 		"id": 19,
-		"title": "Producto 19",
-		"image": "imagen19.jpg",
-		"price": 12.99,
-		"section": "men"
+		"type": "Zapatillas",
+		"title": "Quest 5",
+		"image": "/imagesMain/men/sneakers/z5.png",
+		"price": 37.499,
+		"section": "men",
+		"brand": "Nike"
 	},
 	{
 		"id": 20,
-		"title": "Producto 20",
-		"image": "imagen20.jpg",
-		"price": 9.99,
-		"section": "men"
+		"type": "Zapatillas",
+		"title": "Disperse Xt 2",
+		"image": "/imagesMain/men/sneakers/z6.png",
+		"price": 23.999,
+		"section": "men",
+		"brand": "Puma"
 	},
 
 	{
 		"id": 50,
+		"type": "",
 		"title": "Producto 50",
 		"image": "imagen50.jpg",
 		"price": 25.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 51,
+		"type": "",
 		"title": "Producto 51",
 		"image": "imagen51.jpg",
 		"price": 28.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 52,
+		"type": "",
 		"title": "Producto 52",
 		"image": "imagen52.jpg",
 		"price": 30.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 53,
+		"type": "",
 		"title": "Producto 53",
 		"image": "imagen53.jpg",
 		"price": 19.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 54,
+		"type": "",
 		"title": "Producto 54",
 		"image": "imagen54.jpg",
 		"price": 22.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 55,
+		"type": "",
 		"title": "Producto 55",
 		"image": "imagen55.jpg",
 		"price": 24.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 56,
+		"type": "",
 		"title": "Producto 56",
 		"image": "imagen56.jpg",
 		"price": 27.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 57,
+		"type": "",
 		"title": "Producto 57",
 		"image": "imagen57.jpg",
 		"price": 23.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 58,
+		"type": "",
 		"title": "Producto 58",
 		"image": "imagen58.jpg",
 		"price": 26.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 59,
+		"type": "",
 		"title": "Producto 59",
 		"image": "imagen59.jpg",
 		"price": 29.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 60,
+		"type": "",
 		"title": "Producto 60",
 		"image": "imagen60.jpg",
 		"price": 31.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 61,
+		"type": "",
 		"title": "Producto 61",
 		"image": "imagen61.jpg",
 		"price": 34.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 62,
+		"type": "",
 		"title": "Producto 62",
 		"image": "imagen62.jpg",
 		"price": 36.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 63,
+		"type": "",
 		"title": "Producto 63",
 		"image": "imagen63.jpg",
 		"price": 29.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 64,
+		"type": "",
 		"title": "Producto 64",
 		"image": "imagen64.jpg",
 		"price": 32.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 65,
+		"type": "",
 		"title": "Producto 65",
 		"image": "imagen65.jpg",
 		"price": 34.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 66,
+		"type": "",
 		"title": "Producto 66",
 		"image": "imagen66.jpg",
 		"price": 37.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 67,
+		"type": "",
 		"title": "Producto 67",
 		"image": "imagen67.jpg",
 		"price": 33.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 68,
+		"type": "",
 		"title": "Producto 68",
 		"image": "imagen68.jpg",
 		"price": 36.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 69,
+		"type": "",
 		"title": "Producto 69",
 		"image": "imagen69.jpg",
 		"price": 39.99,
-		"section": "women"
+		"section": "women",
+		"brand": ""
 	},
 	{
 		"id": 100,
+		"type": "",
 		"title": "Producto 100",
 		"image": "imagen100.jpg",
 		"price": 9.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 101,
+		"type": "",
 		"title": "Producto 101",
 		"image": "imagen101.jpg",
 		"price": 12.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 102,
+		"type": "",
 		"title": "Producto 102",
 		"image": "imagen102.jpg",
 		"price": 15.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 103,
+		"type": "",
 		"title": "Producto 103",
 		"image": "imagen103.jpg",
 		"price": 11.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 104,
+		"type": "",
 		"title": "Producto 104",
 		"image": "imagen104.jpg",
 		"price": 14.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 105,
+		"type": "",
 		"title": "Producto 105",
 		"image": "imagen105.jpg",
 		"price": 17.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 106,
+		"type": "",
 		"title": "Producto 106",
 		"image": "imagen106.jpg",
 		"price": 13.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 107,
+		"type": "",
 		"title": "Producto 107",
 		"image": "imagen107.jpg",
 		"price": 16.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 108,
+		"type": "",
 		"title": "Producto 108",
 		"image": "imagen108.jpg",
 		"price": 19.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 109,
+		"type": "",
 		"title": "Producto 109",
 		"image": "imagen109.jpg",
 		"price": 22.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 110,
+		"type": "",
 		"title": "Producto 110",
 		"image": "imagen110.jpg",
 		"price": 25.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 111,
+		"type": "",
 		"title": "Producto 111",
 		"image": "imagen111.jpg",
 		"price": 28.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 112,
+		"type": "",
 		"title": "Producto 112",
 		"image": "imagen112.jpg",
 		"price": 30.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 113,
+		"type": "",
 		"title": "Producto 113",
 		"image": "imagen113.jpg",
 		"price": 19.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 114,
+		"type": "",
 		"title": "Producto 114",
 		"image": "imagen114.jpg",
 		"price": 22.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 115,
+		"type": "",
 		"title": "Producto 115",
 		"image": "imagen115.jpg",
 		"price": 24.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 116,
+		"type": "",
 		"title": "Producto 116",
 		"image": "imagen116.jpg",
 		"price": 27.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 117,
+		"type": "",
 		"title": "Producto 117",
 		"image": "imagen117.jpg",
 		"price": 23.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 118,
+		"type": "",
 		"title": "Producto 118",
 		"image": "imagen118.jpg",
 		"price": 26.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	},
 	{
 		"id": 119,
+		"type": "",
 		"title": "Producto 119",
 		"image": "imagen119.jpg",
 		"price": 29.99,
-		"section": "children"
+		"section": "children",
+		"brand": ""
 	}
 ]

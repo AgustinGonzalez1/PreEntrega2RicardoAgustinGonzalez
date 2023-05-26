@@ -8,7 +8,7 @@ const Main = () => {
 				<h2 className="text-center text-2xl text-white my-4">Productos</h2>
 				<ItemListContainer />
 
-				<ItemCount stock={7} initial={1} />
+				<ItemCount stock={9} initial={1} />
 			</section>
 		</main>
 	);

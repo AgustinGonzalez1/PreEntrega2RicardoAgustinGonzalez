@@ -4,7 +4,7 @@ const AddAndSubtract = ({ operation, icon }) => {
 	return (
 		<button
 			onClick={operation}
-			className="flex justify-center items-center w-6 h-6 border border-solid border-intermedio hover:text-white rounded-full transition duration-100 hover:bg-intermedio">
+			className="flex justify-center items-center text-center w-6 h-6 border border-solid border-intermedio hover:text-white rounded-full transition duration-100 hover:bg-intermedio">
 			{icon}
 		</button>
 	);
@@ -12,7 +12,7 @@ const AddAndSubtract = ({ operation, icon }) => {
 
 const ItemCount = ({ stock, initial }) => {
 	const [number, setNumber] = useState(initial);
-	const [newStock, setStock] = useState(stock);
+	const [newStock, setNewStock] = useState(stock);
 
 	const add = () => {
 		number < newStock && setNumber(number + 1);
@@ -25,28 +25,28 @@ const ItemCount = ({ stock, initial }) => {
 	const onAdd = () => {
 		if (newStock > 0 && number <= newStock) {
 			console.log(`added ${number} items to cart`);
-			setStock(newStock - number);
+			setNewStock(newStock - number);
 			setNumber(1);
 		}
 	};
 
 	useEffect(() => {
-		setStock(stock);
+		setNewStock(stock);
 		setNumber(initial);
+		stock === 0 && setNumber(0);
 	}, [stock]);
 
 	useEffect(() => {
-		if (newStock === 0) {
-			setNumber(0);
-		}
+		newStock === 0 && setNumber(0);
+		newStock > 0 && setNumber(1);
 	}, [newStock]);
 
 	return (
 		<div className="flex flex-col p-1 m-1 w-40">
 			<div className="flex justify-between mx-1">
-				<AddAndSubtract operation={subtract} icon={<i className="fa-solid fa-minus text-sm"></i>} />
+				<AddAndSubtract operation={subtract} icon={"-"} />
 				<h2 className="w-20 text-center">{number}</h2>
-				<AddAndSubtract operation={add} icon={<i className="fa-solid fa-plus text-sm"></i>} />
+				<AddAndSubtract operation={add} icon={"+"} />
 			</div>
 			<div className="m-1 ">
 				<p>stock: {newStock}</p>

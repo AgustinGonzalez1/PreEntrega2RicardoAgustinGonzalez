@@ -1,12 +1,15 @@
 import dataBase from "./products.json";
 
-const fetchData = async (setData) => {
-	try {
-		await new Promise((resolve) => setTimeout(resolve, 3000));
-		setData(dataBase);
-	} catch (error) {
-		console.error("Error al obtener los datos:", error);
-	}
+const tiempo = 1000 * Math.round(Math.random() * (4 - 2) + 2);
+
+const asyncMock = (setItem) => {
+	new Promise((resolve) => {
+		setTimeout(() => {
+			resolve(dataBase);
+		}, tiempo);
+	}).then((data) => {
+		setItem(data);
+	});
 };
 
-export default fetchData;
+export default asyncMock;
