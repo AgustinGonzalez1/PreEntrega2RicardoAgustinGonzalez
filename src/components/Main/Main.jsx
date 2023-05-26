@@ -1,4 +1,4 @@
-import ItemCount from "./components/ItemCount";
+import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 
 const Main = () => {
@@ -8,7 +8,7 @@ const Main = () => {
 				<h2 className="text-center text-2xl text-white my-4">Productos</h2>
 				<ItemListContainer />
 
-				<ItemCount stock={9} initial={1} />
+				<ItemDetailContainer />
 			</section>
 		</main>
 	);

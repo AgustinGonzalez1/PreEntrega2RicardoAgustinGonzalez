@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import asyncMock from "./asyncMock";
+import { asyncMock } from "./asyncMock";
 import ItemList from "./ItemList";
 
 const ItemListContainer = () => {

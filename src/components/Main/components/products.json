@@ -64,7 +64,7 @@
 	},
 	{
 		"id": 8,
-		"type": "Pantalon",
+		"type": "Pantalón",
 		"title": "Tiro21",
 		"image": "/imagesMain/men/pants/p1.png",
 		"price": 15.999,
@@ -73,7 +73,7 @@
 	},
 	{
 		"id": 9,
-		"type": "Pantalon",
+		"type": "Pantalón",
 		"title": "Urbano",
 		"image": "/imagesMain/men/pants/p2.png",
 		"price": 13.999,
@@ -82,7 +82,7 @@
 	},
 	{
 		"id": 10,
-		"type": "Pantalon",
+		"type": "Pantalón",
 		"title": "Essentials 3 Stripes",
 		"image": "/imagesMain/men/pants/p3.png",
 		"price": 14.799,
@@ -91,7 +91,7 @@
 	},
 	{
 		"id": 11,
-		"type": "Pantalon",
+		"type": "Pantalón",
 		"title": "Essentials Slim",
 		"image": "/imagesMain/men/pants/p4.png",
 		"price": 14.999,
@@ -100,7 +100,7 @@
 	},
 	{
 		"id": 12,
-		"type": "Pantalon",
+		"type": "Pantalón",
 		"title": "Colombia Tiro 23",
 		"image": "/imagesMain/men/pants/p5.png",
 		"price": 25.999,
@@ -109,7 +109,7 @@
 	},
 	{
 		"id": 13,
-		"type": "Pantalon",
+		"type": "Pantalón",
 		"title": "Urbano Hs May",
 		"image": "/imagesMain/men/pants/p6.png",
 		"price": 13.999,
@@ -118,7 +118,7 @@
 	},
 	{
 		"id": 14,
-		"type": "Pantalon",
+		"type": "Pantalón",
 		"title": "Urbano Hs May",
 		"image": "/imagesMain/men/pants/p7.png",
 		"price": 13.999,
@@ -182,362 +182,262 @@
 
 	{
 		"id": 50,
-		"type": "",
-		"title": "Producto 50",
-		"image": "imagen50.jpg",
-		"price": 25.99,
+		"type": "Camiseta",
+		"title": "Acqua",
+		"image": "/imagesMain/women/t-shirts/r1.png",
+		"price": 7.499,
 		"section": "women",
-		"brand": ""
+		"brand": "Vairo"
 	},
 	{
 		"id": 51,
-		"type": "",
-		"title": "Producto 51",
-		"image": "imagen51.jpg",
-		"price": 28.99,
+		"type": "Camiseta",
+		"title": "Entrenamiento",
+		"image": "/imagesMain/women/t-shirts/r2.png",
+		"price": 7.299,
 		"section": "women",
-		"brand": ""
+		"brand": "361"
 	},
 	{
 		"id": 52,
-		"type": "",
-		"title": "Producto 52",
-		"image": "imagen52.jpg",
-		"price": 30.99,
+		"type": "Camiseta",
+		"title": "Entrenamiento",
+		"image": "/imagesMain/women/t-shirts/r3.png",
+		"price": 7.299,
 		"section": "women",
-		"brand": ""
+		"brand": "361"
 	},
 	{
 		"id": 53,
-		"type": "",
-		"title": "Producto 53",
-		"image": "imagen53.jpg",
-		"price": 19.99,
+		"type": "Remera",
+		"title": "Ac Fit",
+		"image": "/imagesMain/women/t-shirts/r4.png",
+		"price": 7.999,
 		"section": "women",
-		"brand": ""
+		"brand": "Lotto"
 	},
 	{
 		"id": 54,
-		"type": "",
-		"title": "Producto 54",
-		"image": "imagen54.jpg",
-		"price": 22.99,
+		"type": "Remera",
+		"title": "Train Favorite",
+		"image": "/imagesMain/women/t-shirts/r5.png",
+		"price": 11.299,
 		"section": "women",
-		"brand": ""
+		"brand": "Puma"
 	},
 	{
 		"id": 55,
-		"type": "",
-		"title": "Producto 55",
-		"image": "imagen55.jpg",
-		"price": 24.99,
+		"type": "Remera",
+		"title": "Moonrun II",
+		"image": "/imagesMain/women/t-shirts/r6.png",
+		"price": 5.999,
 		"section": "women",
-		"brand": ""
+		"brand": "Lotto"
 	},
 	{
 		"id": 56,
-		"type": "",
-		"title": "Producto 56",
-		"image": "imagen56.jpg",
-		"price": 27.99,
+		"type": "Remera",
+		"title": "Hs May",
+		"image": "/imagesMain/women/t-shirts/r7.png",
+		"price": 7.999,
 		"section": "women",
-		"brand": ""
+		"brand": "Lotto"
 	},
 	{
 		"id": 57,
-		"type": "",
-		"title": "Producto 57",
-		"image": "imagen57.jpg",
-		"price": 23.99,
+		"type": "Pantalón",
+		"title": "Essencial",
+		"image": "/imagesMain/women/pants/p1.png",
+		"price": 12.499,
 		"section": "women",
-		"brand": ""
+		"brand": "Lotto"
 	},
 	{
 		"id": 58,
-		"type": "",
-		"title": "Producto 58",
-		"image": "imagen58.jpg",
-		"price": 26.99,
+		"type": "Pantalón",
+		"title": "MSP",
+		"image": "/imagesMain/women/pants/p2.png",
+		"price": 19.599,
 		"section": "women",
-		"brand": ""
+		"brand": "Lotto"
 	},
 	{
 		"id": 59,
-		"type": "",
-		"title": "Producto 59",
-		"image": "imagen59.jpg",
-		"price": 29.99,
+		"type": "Pantalón",
+		"title": "Urbana",
+		"image": "/imagesMain/women/pants/p3.png",
+		"price": 15.869,
 		"section": "women",
-		"brand": ""
+		"brand": "Topper"
 	},
 	{
 		"id": 60,
-		"type": "",
-		"title": "Producto 60",
-		"image": "imagen60.jpg",
-		"price": 31.99,
+		"type": "Pantalón",
+		"title": "Rtc",
+		"image": "/imagesMain/women/pants/p4.png",
+		"price": 20.759,
 		"section": "women",
-		"brand": ""
+		"brand": "Topper"
 	},
 	{
 		"id": 61,
-		"type": "",
-		"title": "Producto 61",
-		"image": "imagen61.jpg",
-		"price": 34.99,
+		"type": "Pantalón",
+		"title": "Smart",
+		"image": "/imagesMain/women/pants/p5.png",
+		"price": 15.999,
 		"section": "women",
-		"brand": ""
+		"brand": "Lotto"
 	},
 	{
 		"id": 62,
-		"type": "",
-		"title": "Producto 62",
-		"image": "imagen62.jpg",
-		"price": 36.99,
+		"type": "Pantalón",
+		"title": "Essencial",
+		"image": "/imagesMain/women/pants/p6.png",
+		"price": 12.499,
 		"section": "women",
-		"brand": ""
+		"brand": "Lotto"
 	},
 	{
 		"id": 63,
-		"type": "",
-		"title": "Producto 63",
-		"image": "imagen63.jpg",
-		"price": 29.99,
+		"type": "Pantalón",
+		"title": "Sugar Ii",
+		"image": "/imagesMain/women/pants/p7.png",
+		"price": 13.699,
 		"section": "women",
-		"brand": ""
+		"brand": "Fila"
 	},
 	{
 		"id": 64,
-		"type": "",
-		"title": "Producto 64",
-		"image": "imagen64.jpg",
-		"price": 32.99,
+		"type": "Zapatillas",
+		"title": "Air Max Excee",
+		"image": "/imagesMain/women/sneakers/z1.png",
+		"price": 49.999,
 		"section": "women",
-		"brand": ""
+		"brand": "Nike"
 	},
 	{
 		"id": 65,
-		"type": "",
-		"title": "Producto 65",
-		"image": "imagen65.jpg",
-		"price": 34.99,
+		"type": "Zapatillas",
+		"title": "Revolution 6 Next",
+		"image": "/imagesMain/women/sneakers/z2.png",
+		"price": 29.999,
 		"section": "women",
-		"brand": ""
+		"brand": "Nike"
 	},
 	{
 		"id": 66,
-		"type": "",
-		"title": "Producto 66",
-		"image": "imagen66.jpg",
-		"price": 37.99,
+		"type": "Zapatillas",
+		"title": "R22",
+		"image": "/imagesMain/women/sneakers/z3.png",
+		"price": 31.999,
 		"section": "women",
-		"brand": ""
+		"brand": "puma"
 	},
 	{
 		"id": 67,
-		"type": "",
-		"title": "Producto 67",
-		"image": "imagen67.jpg",
-		"price": 33.99,
+		"type": "Zapatillas",
+		"title": "Softride Enzo Evolve",
+		"image": "/imagesMain/women/sneakers/z4.png",
+		"price": 31.599,
 		"section": "women",
-		"brand": ""
+		"brand": "Puma"
 	},
 	{
 		"id": 68,
-		"type": "",
-		"title": "Producto 68",
-		"image": "imagen68.jpg",
-		"price": 36.99,
+		"type": "Zapatillas",
+		"title": "T.350 Mesh",
+		"image": "/imagesMain/women/sneakers/z5.png",
+		"price": 15.999,
 		"section": "women",
-		"brand": ""
+		"brand": "Topper"
 	},
 	{
 		"id": 69,
-		"type": "",
-		"title": "Producto 69",
-		"image": "imagen69.jpg",
-		"price": 39.99,
+		"type": "Zapatillas",
+		"title": "Air Max Sc",
+		"image": "/imagesMain/women/sneakers/z6.png",
+		"price": 39.999,
 		"section": "women",
-		"brand": ""
+		"brand": "Nike"
 	},
 	{
 		"id": 100,
-		"type": "",
-		"title": "Producto 100",
-		"image": "imagen100.jpg",
-		"price": 9.99,
-		"section": "children",
-		"brand": ""
+		"type": "Mancuerna",
+		"title": "1067Q",
+		"image": "/imagesMain/pesas/p1.png",
+		"price": 10.239,
+		"section": "pesas",
+		"description": "Mancuerna con discos de body pump. Incluye: 2 Discos de 2,5 Kg rojos, 2 Discos de 1 Kg rojos / 1 Mancuerna hueca de 40cm / 2 topes de 25mm. Los discos son plasticos rellenos con cemento italiano y grana metalica.",
+		"brand": "Quuz"
 	},
 	{
 		"id": 101,
-		"type": "",
-		"title": "Producto 101",
-		"image": "imagen101.jpg",
-		"price": 12.99,
-		"section": "children",
-		"brand": ""
+		"type": "Mancuerna",
+		"title": "RAN-055",
+		"image": "/imagesMain/pesas/p2.png",
+		"price": 32.899,
+		"section": "pesas",
+		"description": "Mancuerna de 15kg. Material acero, cemento, plastico (engomada). Para ejercitar brazos, pecho, espalda, centro y piernas. Largo 36 Cm. Este articulo se comercializa por unidad, no se trata de un set.",
+		"brand": "Ranbak"
 	},
 	{
 		"id": 102,
-		"type": "",
-		"title": "Producto 102",
-		"image": "imagen102.jpg",
-		"price": 15.99,
-		"section": "children",
-		"brand": ""
+		"type": "Mancuerna",
+		"title": "RAN-739-2",
+		"image": "/imagesMain/pesas/p3.png",
+		"price": 4.499,
+		"section": "pesas",
+		"description": "Mancuerna hexagonal de fundicion revestida en vinilico. Peso 2 Kg. Color rojo. Medidas (alt-anch-prof) 4 x 4 x 20cm. Este articulo se comercializa por unidad, no se trata de un set.",
+		"brand": "Ranbak"
 	},
 	{
 		"id": 103,
-		"type": "",
-		"title": "Producto 103",
-		"image": "imagen103.jpg",
-		"price": 11.99,
-		"section": "children",
-		"brand": ""
+		"type": "Mancuerna",
+		"title": "RAN-051",
+		"image": "/imagesMain/pesas/p4.png",
+		"price": 8.199,
+		"section": "pesas",
+		"description": "Mancuerna de 5kg. Material acero, cemento, plastico (engomadas) . Para ejercitar brazos, pecho, espalda, centro y piernas. Largo 36 Cm. Este articulo se comercializa por unidad, no se trata de un set.",
+		"brand": "Ranbak"
 	},
 	{
 		"id": 104,
-		"type": "",
-		"title": "Producto 104",
-		"image": "imagen104.jpg",
-		"price": 14.99,
-		"section": "children",
-		"brand": ""
+		"type": "Mancuerna",
+		"title": "RAN-054",
+		"image": "/imagesMain/pesas/p5.png",
+		"price": 20.099,
+		"section": "pesas",
+		"description": "Mancuerna de 12.5kg. Material acero, cemento, plastico (engomada). Para ejercitar brazos, pecho, espalda, centro y piernas. Largo 36 Cm. Este articulo se comercializa por unidad, no se trata de un set.",
+		"brand": "Ranbak"
 	},
 	{
 		"id": 105,
-		"type": "",
-		"title": "Producto 105",
-		"image": "imagen105.jpg",
-		"price": 17.99,
-		"section": "children",
-		"brand": ""
+		"type": "Mancuerna",
+		"title": "RAN-739-1",
+		"image": "/imagesMain/pesas/p6.png",
+		"price": 2.299,
+		"section": "pesas",
+		"description": "Mancuerna hexagonal de fundicion revestida en vinilico. Peso 1 Kg. Color azul. Medidas (alt-anch-prof) 3 x 3 x 20cm. Este articulo se comercializa por unidad, no se trata de un set.",
+		"brand": "Ranbak"
 	},
 	{
 		"id": 106,
-		"type": "",
-		"title": "Producto 106",
-		"image": "imagen106.jpg",
-		"price": 13.99,
-		"section": "children",
-		"brand": ""
+		"type": "Mancuerna",
+		"title": "RAN-739-3",
+		"image": "/imagesMain/pesas/p7.png",
+		"price": 6.599,
+		"section": "pesas",
+		"description": "Mancuerna hexagonal de fundicion revestida en vinilico. Peso 3 Kg. Color verde. Medidas (alt-anch-prof) 5 x 5 x 20cm. Este articulo se comercializa por unidad, no se trata de un set.",
+		"brand": "Ranbak"
 	},
 	{
 		"id": 107,
-		"type": "",
-		"title": "Producto 107",
-		"image": "imagen107.jpg",
-		"price": 16.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 108,
-		"type": "",
-		"title": "Producto 108",
-		"image": "imagen108.jpg",
-		"price": 19.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 109,
-		"type": "",
-		"title": "Producto 109",
-		"image": "imagen109.jpg",
-		"price": 22.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 110,
-		"type": "",
-		"title": "Producto 110",
-		"image": "imagen110.jpg",
-		"price": 25.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 111,
-		"type": "",
-		"title": "Producto 111",
-		"image": "imagen111.jpg",
-		"price": 28.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 112,
-		"type": "",
-		"title": "Producto 112",
-		"image": "imagen112.jpg",
-		"price": 30.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 113,
-		"type": "",
-		"title": "Producto 113",
-		"image": "imagen113.jpg",
-		"price": 19.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 114,
-		"type": "",
-		"title": "Producto 114",
-		"image": "imagen114.jpg",
-		"price": 22.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 115,
-		"type": "",
-		"title": "Producto 115",
-		"image": "imagen115.jpg",
-		"price": 24.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 116,
-		"type": "",
-		"title": "Producto 116",
-		"image": "imagen116.jpg",
-		"price": 27.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 117,
-		"type": "",
-		"title": "Producto 117",
-		"image": "imagen117.jpg",
-		"price": 23.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 118,
-		"type": "",
-		"title": "Producto 118",
-		"image": "imagen118.jpg",
-		"price": 26.99,
-		"section": "children",
-		"brand": ""
-	},
-	{
-		"id": 119,
-		"type": "",
-		"title": "Producto 119",
-		"image": "imagen119.jpg",
-		"price": 29.99,
-		"section": "children",
-		"brand": ""
+		"type": "Mancuerna",
+		"title": "RAN-052",
+		"image": "/imagesMain/pesas/p8.png",
+		"price": 12.199,
+		"section": "pesas",
+		"description": "Mancuerna de 7.5kg. Material acero, cemento, plastico (engomadas) . Para ejercitar brazos, pecho, espalda, centro y piernas. Largo 36 Cm. Este articulo se comercializa por unidad, no se trata de un set.",
+		"brand": "Ranbak"
 	}
 ]

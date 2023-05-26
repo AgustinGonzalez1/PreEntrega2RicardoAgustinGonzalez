@@ -27,7 +27,7 @@ const Nav = () => {
 				<Lista text={"Productos"} />
 				<Lista text={"Hombre"} />
 				<Lista text={"Mujer"} />
-				<Lista text={"Niño/a"} />
+				<Lista text={"Mancuernas"} />
 			</ul>
 			<CartWidget />
 		</nav>
