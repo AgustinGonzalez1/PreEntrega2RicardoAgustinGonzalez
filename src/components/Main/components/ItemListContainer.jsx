@@ -1,15 +1,35 @@
 import React, { useState, useEffect } from "react";
-import { asyncMock } from "./asyncMock";
 import ItemList from "./ItemList";
+import Header from "../../Header/Header";
+import { useParams } from "react-router-dom";
+import dataBase from "./products.json";
 
 const ItemListContainer = () => {
 	const [items, setItems] = useState([]);
+	const { id } = useParams();
 
 	useEffect(() => {
-		asyncMock(setItems);
-	}, []);
+		setItems([]);
+		new Promise((resolve) => {
+			setTimeout(() => {
+				resolve(id ? dataBase.filter((item) => item.section === id) : dataBase);
+			}, 2000);
+		}).then((data) => {
+			setItems(data);
+		});
+	}, [id]);
 
-	return <ItemList items={items} />;
+	return (
+		<>
+			<Header />
+			<main className="w-full flex flex-col justify-center elemento">
+				<section className="flex flex-col container mx-auto bg-[#191825] justify-center items-center">
+					<h2 className="text-center text-2xl text-white mt-5">{id ? `${id}` : "Todos los productos"}</h2>
+					{items.length === 0 ? <span className="loader my-3"></span> : <ItemList items={items} />}
+				</section>
+			</main>
+		</>
+	);
 };
 
 export default ItemListContainer;

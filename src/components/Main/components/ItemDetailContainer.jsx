@@ -1,19 +1,31 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import ItemDetail from "./ItemDetail";
-import { asyncMockId } from "./asyncMock";
+import { useParams } from "react-router-dom";
+import dataBase from "./products.json";
 
 const ItemDetailContainer = () => {
-	const [item, setItem] = useState({});
+	const [item, setItem] = useState();
+	const { id } = useParams();
 
 	useEffect(() => {
-		asyncMockId(setItem);
-	}, []);
+		setItem();
+		new Promise((resolve) => {
+			setTimeout(() => {
+				resolve(dataBase);
+			}, 2000);
+		}).then((data) => {
+			setItem(data.find((items) => items.idx === parseInt(id)));
+			console.log(data.find((items) => items.idx === parseInt(id)));
+		});
+	}, [id]);
 
 	return (
-		<section className="w-full flex justify-center items-center elemento h-screen">
-			<ItemDetail item={item} />
-		</section>
+		<main className="w-full flex justify-center elemento mt-[80px] h-screen">
+			<section className="flex justify-center items-center container mx-auto bg-[#191825]">
+				{item ? <ItemDetail item={item} /> : <span className="loader"></span>}
+			</section>
+		</main>
 	);
 };
 

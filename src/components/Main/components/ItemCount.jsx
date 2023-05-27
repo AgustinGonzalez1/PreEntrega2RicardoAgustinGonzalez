@@ -42,7 +42,7 @@ const ItemCount = ({ stock, initial }) => {
 	}, [newStock]);
 
 	return (
-		<div className="flex flex-col p-1 m-1 w-40">
+		<div className="flex flex-col p-1 m-1 w-40 gap-3">
 			<div className="flex justify-between mx-1">
 				<AddAndSubtract operation={subtract} icon={"-"} />
 				<h2 className="w-20 text-center">{number}</h2>

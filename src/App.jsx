@@ -1,18 +1,25 @@
 import "./App.css";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
+import ItemListContainer from "./components/Main/components/ItemListContainer";
+import ItemDetailContainer from "./components/Main/components/ItemDetailContainer";
 import Nav from "./components/NavBar/NavBar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
 	return (
 		<>
-			<Nav />
-			<Header />
-			<Main />
-			<Footer />
+			<BrowserRouter>
+				<Nav />
+				<Routes>
+					<Route path="/" element={<ItemListContainer />} />
+					<Route path="/category/:id" element={<ItemListContainer />} />
+					<Route path="/item/:id" element={<ItemDetailContainer />} />
+				</Routes>
+				<Footer />
+			</BrowserRouter>
 		</>
 	);
 }
 
 export default App;
+// Path: /* element=error404
