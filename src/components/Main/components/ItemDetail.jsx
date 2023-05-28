@@ -2,7 +2,7 @@ import ItemCount from "./ItemCount";
 
 const ItemDetail = ({ item }) => {
 	return (
-		<div className="flex bg-[#191825] lg:w-5/6 rounded-xl overflow-hidden lg:flex-row flex-col">
+		<div className="flex bg-[#191825] lg:w-5/6 rounded-xl overflow-hidden lg:flex-row flex-col animate-fade-up">
 			<div className="overflow-hidden bg-gradient-to-b from-[#865dff] to-[#e384ff] lg:w-1/2 w-72">
 				<img src={item.image} alt={item.title} className="w-full" />
 			</div>

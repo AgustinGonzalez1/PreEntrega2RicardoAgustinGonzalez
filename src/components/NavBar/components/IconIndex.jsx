@@ -1,10 +1,11 @@
 import IconImg from "./images/iconImg.png";
+import { NavLink } from "react-router-dom";
 
 const Icon = () => {
 	return (
-		<div className="flex justify-center items-center w-[140px]">
+		<NavLink to="/" className="flex justify-center items-center w-[140px]">
 			<img src={IconImg} alt="Icono" className="w-full" />
-		</div>
+		</NavLink>
 	);
 };
 

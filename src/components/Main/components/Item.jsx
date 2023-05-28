@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Item = ({ item }) => {
 	return (
 		<Link to={`/item/${item.idx}`}>
-			<div className="flex w-[250px] flex-col rounded-xl overflow-hidden ">
+			<div className="flex w-[250px] flex-col overflow-hidden duration-200 card ">
 				<div className=" bg-gradient-to-b from-[#865dff] to-[#e384ff]">
 					<img src={item.image} alt={item.title} className="w-full" />
 				</div>

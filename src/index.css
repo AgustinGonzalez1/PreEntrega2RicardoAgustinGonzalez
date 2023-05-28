@@ -147,6 +147,49 @@ a {
 	background-size: 20%;
 }
 
-.pruebaNav {
-	color: aqua;
+/* loader item */
+
+.custom-loader {
+	width: 120px;
+	height: 20px;
+	background: linear-gradient(#7753e6 0 0) left/0% 100% no-repeat #e4e4ed;
+	animation: p1 2s infinite linear;
+}
+@keyframes p1 {
+	100% {
+		background-size: 100% 100%;
+	}
+}
+/* loader item */
+
+/* nav link */
+.sobre:after {
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	display: block;
+	transition: all 0.3s ease-in-out;
+	bottom: -1px;
+}
+.sobre:hover::after {
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+}
+
+.activeSobre:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	display: block;
+	transition: all 0.3s ease;
+	bottom: -1px;
+	background-color: #fff;
+}
+/* nav link */
+.card:hover {
+	box-shadow: 2px -2px 0px #191825, 4px -4px 0px #ffff00, 7px -7px 0px #191825, 9px -9px 0px #ff9900, 12px -12px 0px #191825,
+		14px -14px 0px #ff0000;
 }

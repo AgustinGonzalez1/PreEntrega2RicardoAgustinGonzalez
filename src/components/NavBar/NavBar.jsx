@@ -6,12 +6,10 @@ import { NavLink } from "react-router-dom";
 
 const Lista = ({ text, url }) => {
 	return (
-		<li className="mx-[10px]">
+		<li className="mx-[10px] relative">
 			<NavLink
 				to={url}
-				className={({ isActive }) =>
-					isActive ? "text-[#191825] font-bold" : "text-white hover:text-[#191825] duration-200 font-bold"
-				}>
+				className={({ isActive }) => (isActive ? "activeSobre font-bold text-white" : "text-white sobre font-bold ")}>
 				{text}
 			</NavLink>
 		</li>
