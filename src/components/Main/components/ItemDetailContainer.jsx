@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
-import dataBase from "./products.json";
+import { asyncMockItem } from "./asyncMock";
 
 const ItemDetailContainer = () => {
 	const [item, setItem] = useState();
@@ -10,12 +10,8 @@ const ItemDetailContainer = () => {
 
 	useEffect(() => {
 		setItem();
-		new Promise((resolve) => {
-			setTimeout(() => {
-				resolve(dataBase);
-			}, 2000);
-		}).then((data) => {
-			setItem(data.find((items) => items.idx === parseInt(id)));
+		asyncMockItem(id).then((data) => {
+			setItem(data);
 		});
 	}, [id]);
 

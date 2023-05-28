@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ItemList from "./ItemList";
 import Header from "../../Header/Header";
 import { useParams } from "react-router-dom";
-import dataBase from "./products.json";
+import { asyncMock } from "./asyncMock";
 
 const ItemListContainer = () => {
 	const [items, setItems] = useState([]);
@@ -10,11 +10,7 @@ const ItemListContainer = () => {
 
 	useEffect(() => {
 		setItems([]);
-		new Promise((resolve) => {
-			setTimeout(() => {
-				resolve(id ? dataBase.filter((item) => item.section === id) : dataBase);
-			}, 2000);
-		}).then((data) => {
+		asyncMock(id).then((data) => {
 			setItems(data);
 		});
 	}, [id]);

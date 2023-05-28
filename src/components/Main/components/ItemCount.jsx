@@ -24,7 +24,6 @@ const ItemCount = ({ stock, initial }) => {
 
 	const onAdd = () => {
 		if (newStock > 0 && number <= newStock) {
-			console.log(`added ${number} items to cart`);
 			setNewStock(newStock - number);
 			setNumber(1);
 		}
