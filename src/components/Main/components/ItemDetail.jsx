@@ -18,7 +18,7 @@ const ItemDetail = ({ item }) => {
 						<p className="text-sm font-semibold">{item.section}</p>
 						<p className="text-sm font-semibold">${item.price}</p>
 					</div>
-					<ItemCount initial={1} stock={item.stock} />
+					<ItemCount initial={1} stock={item.stock} onAddd={(quantity) => console.log("cantidad agregada", quantity)} />
 				</div>
 			</div>
 		</div>
