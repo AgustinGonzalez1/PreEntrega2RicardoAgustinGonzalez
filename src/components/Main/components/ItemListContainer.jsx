@@ -21,7 +21,7 @@ const ItemListContainer = () => {
 			<main className="w-full flex flex-col justify-center elemento">
 				<section className="flex flex-col container mx-auto bg-[#191825] justify-center items-center">
 					<h2 className="text-center text-2xl text-white mt-5">{id ? `${id}` : "Todos los productos"}</h2>
-					{items.length === 0 ? <span className="loader my-3"></span> : <ItemList items={items} />}
+					{items.length === 0 ? <span className="loader my-10"></span> : <ItemList items={items} />}
 				</section>
 			</main>
 		</>

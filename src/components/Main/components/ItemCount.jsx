@@ -26,6 +26,7 @@ const ItemCount = ({ stock, initial }) => {
 		if (newStock > 0 && number <= newStock) {
 			setNewStock(newStock - number);
 			setNumber(1);
+			number === 1 ? console.log("Se agrego un producto al carrito") : console.log(`Se agregaron ${number} productos al carrito`);
 		}
 	};
 
