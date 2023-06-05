@@ -193,3 +193,9 @@ a {
 	box-shadow: 2px -2px 0px #191825, 4px -4px 0px #ffff00, 7px -7px 0px #191825, 9px -9px 0px #ff9900, 12px -12px 0px #191825,
 		14px -14px 0px #ff0000;
 }
+
+/* not found */
+.calc {
+	height: calc(100vh - 114px);
+}
+/* not found */
