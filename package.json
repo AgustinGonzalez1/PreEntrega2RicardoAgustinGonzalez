@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@swc/plugin-styled-components": "^1.5.67",
+    "firebase": "^9.22.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",

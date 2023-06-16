@@ -2,17 +2,8 @@ import React, { useState, useEffect } from "react";
 import ItemList from "./ItemList";
 import Header from "../../Header/Header";
 import { useParams } from "react-router-dom";
-import { asyncMock } from "./asyncMock";
-
-const Title = ({ id, featured }) => {
-	if (id === "Hombre" || id === "Mujer") {
-		return <h2 className="text-center text-2xl text-white mt-5">Indumentaria de {id}</h2>;
-	} else if (id === "Mancuernas") {
-		return <h2 className="text-center text-2xl text-white mt-5">Mancuernas</h2>;
-	} else {
-		return <h2 className="text-center text-2xl text-white mt-5">{featured ? "Destacado" : "Todos los productos"}</h2>;
-	}
-};
+import { getFirestore, collection, getDocs, orderBy, query, where } from "firebase/firestore";
+import Title from "./Title";
 
 const ItemListContainer = ({ featured }) => {
 	const [items, setItems] = useState([]);
@@ -20,8 +11,24 @@ const ItemListContainer = ({ featured }) => {
 
 	useEffect(() => {
 		setItems([]);
-		asyncMock(id).then((data) => {
-			featured ? setItems(data.filter((item) => item.stock <= 10)) : setItems(data);
+
+		const db = getFirestore();
+		const productsCollection = collection(db, "products");
+		const sortedProducts = query(productsCollection, orderBy("type", "asc"), orderBy("section", "asc"));
+		const q = id
+			? query(productsCollection, where("section", "==", id), orderBy("type", "asc"), orderBy("section", "asc"))
+			: sortedProducts;
+
+		getDocs(q).then((results) => {
+			if (results.size > 0) {
+				const data = results.docs.map((doc) => ({
+					id: doc.id,
+					...doc.data(),
+				}));
+				featured ? setItems(data.filter((item) => item.stock <= 10)) : setItems(data);
+			} else {
+				console.log("No hay productos");
+			}
 		});
 	}, [id, featured]);
 

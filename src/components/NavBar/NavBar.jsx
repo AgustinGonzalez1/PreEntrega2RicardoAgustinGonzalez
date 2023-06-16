@@ -29,7 +29,8 @@ const Nav = () => {
 			<Icon />
 			<ul
 				className={`h-0 ease-in-out bg-[#7753E6] duration-300 flex items-center absolute md:static w-full md:w-auto justify-center flex-col md:flex-row overflow-hidden top-[80px] left-[0px] gap-5 md:gap-0 md:h-auto ${show} rounded-b-lg`}>
-				<Lista text={"Productos"} url={"/"} />
+				<Lista text={"Inicio"} url={"/"} />
+				<Lista text={"Productos"} url={"/productos"} />
 				<Lista text={"Destacado"} url={"/featured"} />
 				<Lista text={"Hombre"} url={"/category/Hombre"} />
 				<Lista text={"Mujer"} url={"/category/Mujer"} />

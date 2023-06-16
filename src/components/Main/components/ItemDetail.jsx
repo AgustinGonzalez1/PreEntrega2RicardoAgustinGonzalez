@@ -1,9 +1,15 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import ItemCount from "./ItemCount";
 import CompletePurchase from "./CompletePurchase";
+import { CartContext } from "../../CartContext/CartContext";
 
 const ItemDetail = ({ item }) => {
 	const [quantityAdded, setQuantityAdded] = useState(0);
+	const { addToCart } = useContext(CartContext);
+
+	const onAddToCart = (quantity) => {
+		addToCart(item, quantity);
+	};
 
 	return (
 		<div className="flex bg-[#191825] overflow-hidden lg:flex-row flex-col animate-fade-up card duration-200">
@@ -16,7 +22,7 @@ const ItemDetail = ({ item }) => {
 					<h3 className="text-lg font-bold">{item.title}</h3>
 					<p className="text-sm">{item.brand}</p>
 				</div>
-				<p className="text-sm">{item.description}</p>
+				<p className="text-xs lg:w-[355px]">{item.description}</p>
 				<div className="flex justify-center flex-col items-center">
 					<div className="flex justify-between w-full">
 						<p className="text-sm font-semibold">{item.section}</p>
@@ -24,7 +30,7 @@ const ItemDetail = ({ item }) => {
 					</div>
 
 					{quantityAdded === 0 ? (
-						<ItemCount stock={item.stock} initial={1} setQuantityAdded={setQuantityAdded} />
+						<ItemCount stock={item} initial={1} setQuantityAdded={setQuantityAdded} onAddToCart={onAddToCart} />
 					) : (
 						<CompletePurchase quantityAdded={quantityAdded} />
 					)}

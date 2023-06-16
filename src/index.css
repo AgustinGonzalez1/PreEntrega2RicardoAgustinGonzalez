@@ -153,7 +153,7 @@ a {
 	width: 120px;
 	height: 20px;
 	background: linear-gradient(#7753e6 0 0) left/0% 100% no-repeat #e4e4ed;
-	animation: p1 2s infinite linear;
+	animation: p1 0.5s infinite linear;
 }
 @keyframes p1 {
 	100% {
@@ -199,3 +199,19 @@ a {
 	height: calc(100vh - 114px);
 }
 /* not found */
+
+.calc2 {
+	height: calc(100vh - 114px - 80px);
+}
+
+.calc3 {
+	min-height: calc(100vh - 114px - 80px);
+}
+
+.calc4 {
+	min-height: calc(100vh - 114px - 80px - 80px);
+}
+
+.calc5 {
+	width: calc(20% - 16px);
+}
