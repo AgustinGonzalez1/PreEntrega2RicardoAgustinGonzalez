@@ -1,18 +1,17 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { CartContext } from "../../../components/CartContext/CartContext";
-import { useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { addDoc, collection, doc, getFirestore, updateDoc } from "firebase/firestore";
 
-const PurchaseForm = ({ clear }) => {
+const PurchaseForm = () => {
 	const [info, setInfo] = useState({
 		name: "",
 		email: "",
 		phone: "",
 	});
-	const [orderId, setOrderId] = useState("");
+	const [orderId, setOrderId] = useState();
 
 	const { cart } = useContext(CartContext);
-	const navigate = useNavigate();
 
 	const handleClick = (e) => {
 		e.preventDefault();
@@ -50,7 +49,8 @@ const PurchaseForm = ({ clear }) => {
 			const orders = collection(db, "orders");
 			addDoc(orders, order)
 				.then((res) => {
-					setOrderId(res.id);
+					const response = res.id;
+					setOrderId(response);
 				})
 				.catch((err) => console.log(err));
 
@@ -60,10 +60,9 @@ const PurchaseForm = ({ clear }) => {
 					stock: item.stock - item.quantity,
 				});
 			});
-
-			clear();
 		}
 	};
+
 	return (
 		<div className="md:w-[728px]">
 			<form action="">
@@ -91,11 +90,7 @@ const PurchaseForm = ({ clear }) => {
 					Generar orden
 				</button>
 			</form>
-			{orderId && (
-				<div className="w-full bg-[#191825] border-2 border-white text-white p-2 my-2">
-					<p className="text-center">Tu orden de compra es: {orderId}</p>
-				</div>
-			)}
+			{orderId && <Navigate to={`/thankyou/${orderId}`} />}
 		</div>
 	);
 };

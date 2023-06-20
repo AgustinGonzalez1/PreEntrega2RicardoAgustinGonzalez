@@ -13,10 +13,10 @@ const ItemDetail = ({ item }) => {
 
 	return (
 		<div className="flex bg-[#191825] overflow-hidden lg:flex-row flex-col animate-fade-up card duration-200">
-			<div className="overflow-hidden bg-gradient-to-b from-[#865dff] to-[#e384ff] lg:w-[500px] w-72">
+			<div className="overflow-hidden bg-gradient-to-b from-[#865dff] to-[#e384ff] lg:w-[400px] w-72">
 				<img src={item.image} alt={item.title} className="w-full" />
 			</div>
-			<div className="bg-[#f8f8f8] p-8 flex flex-col gap-1 lg:gap-8 justify-between lg:w-1/2 w-72">
+			<div className="bg-[#f8f8f8] p-8 flex flex-col gap-1 lg:gap-8 justify-between lg:w-[400px] w-72">
 				<div>
 					<p className="text-[10px] text-end">{item.type}</p>
 					<h3 className="text-lg font-bold">{item.title}</h3>
