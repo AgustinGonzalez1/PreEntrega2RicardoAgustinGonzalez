@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import Button from "./button";
+import Button from "./Button";
 import { CartContext } from "../../CartContext/CartContext";
 
 const AddAndSubtract = ({ operation, icon }) => {
