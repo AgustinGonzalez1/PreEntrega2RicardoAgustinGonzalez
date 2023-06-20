@@ -7,7 +7,7 @@ import NotFound from "./components/NotFound/NotFound";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { CartContextProvider } from "./components/CartContext/CartContext";
-import Cart from "./components/Main/components/cart";
+import Cart from "./components/Main/components/Cart";
 import Index from "./components/Main/Index";
 import Checkout from "./components/Main/components/Checkout";
 
