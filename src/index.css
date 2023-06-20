@@ -215,3 +215,8 @@ a {
 .calc5 {
 	width: calc(20% - 16px);
 }
+
+input[type="number"] {
+	appearance: none;
+	-moz-appearance: textfield;
+}

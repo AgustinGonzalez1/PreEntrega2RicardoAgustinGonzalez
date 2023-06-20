@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CartContextProvider } from "./components/CartContext/CartContext";
 import Cart from "./components/Main/components/cart";
 import Index from "./components/Main/Index";
+import Checkout from "./components/Main/components/Checkout";
 
 function App() {
 	return (
@@ -19,12 +20,12 @@ function App() {
 					<Routes>
 						<Route path="/" element={<Index />} />
 						<Route path="/productos" element={<ItemListContainer />} />
-						<Route path="/featured" element={<ItemListContainer featured={true} />} />
 						<Route path="/category/:id" element={<ItemListContainer />} />
 						<Route path="/item/:id" element={<ItemDetailContainer />} />
 						<Route path="*" element={<NotFound />} />
 						<Route path="/cart" element={<Cart />} />
 						<Route path="/:search" element={<ItemListContainer />} />
+						<Route path="/checkout" element={<Checkout />} />
 					</Routes>
 					<Footer />
 				</BrowserRouter>
