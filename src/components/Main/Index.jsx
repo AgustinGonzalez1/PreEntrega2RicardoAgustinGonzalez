@@ -8,13 +8,13 @@ import Button from "./components/Button";
 
 const Sections = ({ text, url, image }) => {
 	return (
-		<section className="flex flex-col bg-[#191825] bg-gradient-to-b from-[#865dff] to-[#e384ff] p-2 w-2/5 duration-200 card">
+		<section className="flex flex-col bg-[#191825] bg-gradient-to-b from-[#865dff] to-[#e384ff] p-2 w-[500px] duration-200 card mx-6 md:mx-0">
 			<div>
 				<img className="w-full aspect-video object-cover" src={image} alt={text} />
 			</div>
-			<div className="bg-white flex justify-between p-6 items-center">
-				<h4 className="text-center text-black">{text}</h4>
-				<Link to={url} className=" w-24">
+			<div className="bg-white flex justify-between md:p-6 items-center flex-col p-4 lg:flex-row">
+				<h4 className="text-center text-black md:text-lg text-xs mb-4">{text}</h4>
+				<Link to={url} className="w-full lg:w-24">
 					<Button text1="Visitar" />
 				</Link>
 			</div>
