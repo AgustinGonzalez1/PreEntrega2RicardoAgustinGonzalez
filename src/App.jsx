@@ -19,10 +19,10 @@ function App() {
 				<BrowserRouter>
 					<Nav />
 					<Routes>
-						<Route path="/" element={<Index />} />
 						<Route path="/productos" element={<ItemListContainer />} />
 						<Route path="/category/:id" element={<ItemListContainer />} />
 						<Route path="/item/:id" element={<ItemDetailContainer />} />
+						<Route path="/" element={<Index />} />
 						<Route path="*" element={<NotFound />} />
 						<Route path="/cart" element={<Cart />} />
 						<Route path="/checkout" element={<Checkout />} />
